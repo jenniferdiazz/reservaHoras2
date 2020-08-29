@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horas medicas</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body onclick="inicio();">
+    <h1>Formulario de horas medicas</h1>
+  <div>
+    <div class="todo-new">
+      <div>
+        <input id="rut" placeholder="Ingrese rut con guion y sin puntos" type="text" class="inputcss">
+      </div>
+      <div>
+        <input id="nombres" placeholder="Nombres" class="inputcss" type="text">
+      </div>
+      <div>
+        <input id="apellidos" placeholder="Apellidos" class="inputcss" type="text">
+      </div>
+      <div>
+        <input id="edad" placeholder="edad" class="inputcss" type="text" placeholder="Edad" class="inputcss">
+      </div>
+      <div>
+        <input id="correo" type="text" placeholder="Correo" class="inputcss">
+      </div>
+      <div>
+          <!--Lista de seleccion de especialidad-->
+          <select id="especialidad">
+            <option selected="yes">Escoga una especialidad</option>
+            <option value="traumatologia">Traumatologia</option>
+            <option value="odontologia">odontologia</option>
+            <option value="psicologia">psicologia</option>
+        </select>
+      </div>
+      <div>
+        <input id="fecha" type="text" placeholder="fecha dd-mm-yyyy" class="inputcss">
+      </div>
+      <div>
+           <!--Lista de seleccion de horas-->
+           <select id="hora">
+            <option selected="yes">Escoga una hora</option>
+            <option value="09:00">09:00</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+        </select>
+      </div>
+      <div>
+        <button id="button-add-new">Agregar</button>
+      </div>
+    </div>
+    <div id="todo">
+        
+    </div>
+
+    
+  </div>
+<script src="/assets/js/init.js"></script>    
+</body>
+
+</html>
